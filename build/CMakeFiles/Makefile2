@@ -85,12 +85,12 @@ clean: CMakeFiles/WeatherService.dir/clean
 CMakeFiles/WeatherService.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherService.dir/build.make CMakeFiles/WeatherService.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherService.dir/build.make CMakeFiles/WeatherService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denis/WeatherService/build/CMakeFiles --progress-num=1,2,3 "Built target WeatherService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denis/WeatherService/build/CMakeFiles --progress-num=1,2,3,4 "Built target WeatherService"
 .PHONY : CMakeFiles/WeatherService.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WeatherService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/denis/WeatherService/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/denis/WeatherService/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/WeatherService.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/denis/WeatherService/build/CMakeFiles 0
 .PHONY : CMakeFiles/WeatherService.dir/rule
@@ -102,7 +102,7 @@ WeatherService: CMakeFiles/WeatherService.dir/rule
 # codegen rule for target.
 CMakeFiles/WeatherService.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherService.dir/build.make CMakeFiles/WeatherService.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denis/WeatherService/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target WeatherService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denis/WeatherService/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target WeatherService"
 .PHONY : CMakeFiles/WeatherService.dir/codegen
 
 # clean rule for target.

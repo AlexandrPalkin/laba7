@@ -15,12 +15,12 @@ Weather JsonService::getWeather(const std::string& filename) {
     file >> j;
 
     return Weather(
-        j["city"],
-        j["coord"]["lon"],
-        j["coord"]["lat"],
-        j["main"]["temp"],
-        j["weather"][0]["description"],
-        j["wind"]["speed"],
-        j["clouds"]["all"]
+        j.value("city", "Без названия"),
+        j.value("lon", 0.0),
+        j.value("lat", 0.0),
+        j.value("temperature", 0.0),
+        j.value("weather", "нет данных"),
+        j.value("windSpeed", 0.0),
+        j.value("clouds", 0)
     );
 }

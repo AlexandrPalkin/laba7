@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/WeatherService.dir/JsonService.cpp.o"
+  "CMakeFiles/WeatherService.dir/JsonService.cpp.o.d"
   "CMakeFiles/WeatherService.dir/XmlService.cpp.o"
   "CMakeFiles/WeatherService.dir/XmlService.cpp.o.d"
   "CMakeFiles/WeatherService.dir/main.cpp.o"

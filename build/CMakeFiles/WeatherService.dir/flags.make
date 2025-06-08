@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /Users/denis/dev/vcpkg/installed/arm64-osx/include
 
-CXX_FLAGSarm64 = -std=gnu++11 -arch arm64
+CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 
-CXX_FLAGS = -std=gnu++11 -arch arm64
+CXX_FLAGS = -std=gnu++17 -arch arm64
 

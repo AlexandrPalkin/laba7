@@ -129,6 +129,30 @@ WeatherService/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherService.dir/build.make CMakeFiles/WeatherService.dir/build
 .PHONY : WeatherService/fast
 
+JsonService.o: JsonService.cpp.o
+.PHONY : JsonService.o
+
+# target to build an object file
+JsonService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherService.dir/build.make CMakeFiles/WeatherService.dir/JsonService.cpp.o
+.PHONY : JsonService.cpp.o
+
+JsonService.i: JsonService.cpp.i
+.PHONY : JsonService.i
+
+# target to preprocess a source file
+JsonService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherService.dir/build.make CMakeFiles/WeatherService.dir/JsonService.cpp.i
+.PHONY : JsonService.cpp.i
+
+JsonService.s: JsonService.cpp.s
+.PHONY : JsonService.s
+
+# target to generate assembly for a file
+JsonService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherService.dir/build.make CMakeFiles/WeatherService.dir/JsonService.cpp.s
+.PHONY : JsonService.cpp.s
+
 XmlService.o: XmlService.cpp.o
 .PHONY : XmlService.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... WeatherService"
+	@echo "... JsonService.o"
+	@echo "... JsonService.i"
+	@echo "... JsonService.s"
 	@echo "... XmlService.o"
 	@echo "... XmlService.i"
 	@echo "... XmlService.s"

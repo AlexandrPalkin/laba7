@@ -1,7 +1,7 @@
 CMakeFiles/WeatherService.dir/main.cpp.o: \
   /Users/denis/WeatherService/main.cpp \
-  /Users/denis/WeatherService/XmlService.h \
-  /Users/denis/WeatherService/Service.h \
+  /Users/denis/WeatherService/JsonService.h \
+  /Users/denis/WeatherService/Weather.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -738,7 +738,6 @@ CMakeFiles/WeatherService.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/denis/WeatherService/Weather.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \
@@ -794,5 +793,7 @@ CMakeFiles/WeatherService.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
+  /Users/denis/WeatherService/XmlService.h \
+  /Users/denis/WeatherService/Service.h \
   /Users/denis/dev/vcpkg/installed/arm64-osx/include/pugixml.hpp \
   /Users/denis/dev/vcpkg/installed/arm64-osx/include/pugiconfig.hpp
