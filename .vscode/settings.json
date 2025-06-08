@@ -1,0 +1,6 @@
+{
+    "cmake.configureSettings": {
+      "CMAKE_TOOLCHAIN_FILE": "/Users/denis/dev/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    }
+  }
+  
