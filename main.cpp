@@ -1,6 +1,8 @@
-#include <iostream>
+#include "XmlService.h"
 
 int main() {
-    std::cout << "Weather Service started!" << std::endl;
+    XmlService xs;
+    Weather w = xs.getWeather("weather.xml");
+    w.print();
     return 0;
 }

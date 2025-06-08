@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <iostream> 
 
 class Weather {
 public:
@@ -24,4 +25,12 @@ public:
           temperature(temperature), weather(weather),
           windSpeed(windSpeed), clouds(clouds)
     {}
+
+    void print() const {
+        std::cout << "Город: " << city << std::endl;
+        std::cout << "Температура: " << temperature << "°C" << std::endl;
+        std::cout << "Погода: " << weather << std::endl;
+        std::cout << "Скорость ветра: " << windSpeed << " м/с" << std::endl;
+        std::cout << "Облачность: " << clouds << "%" << std::endl;
+    }
 };
