@@ -1,14 +1,14 @@
-#include <iostream>
-#include "JsonService.h"
+#include "XmlService.h"
+// Или #include "XmlService.hpp" — в зависимости от твоего имени файла
 
 int main() {
     try {
-        JsonService js;
-        Weather w = js.getWeather("weather.json");
-        std::cout << "Город: " << w.city << "\nТемпература: " << w.temperature << "°C\n";
+        XmlService xs;
+        Weather w = xs.getWeather("weather.xml");
+        w.print();
+    } catch (const std::exception& e) {
+        std::cerr << "Ошибка: " << e.what() << std::endl;
     }
-    catch (const std::exception& ex) {
-        std::cerr << "Ошибка: " << ex.what() << std::endl;
-    }
+
     return 0;
 }
