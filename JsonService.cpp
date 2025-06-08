@@ -5,7 +5,7 @@ Weather JsonService::getWeather(std::string s)
 {
     std::ifstream fin(s);
     if (!fin)
-        throw std::exception("error");
+        throw std::runtime_error("error");
 
     json j;
     j = json::parse(fin);
